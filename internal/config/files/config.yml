@@ -1,0 +1,13 @@
+server:
+  port: 3001
+
+database:
+  username: root
+  password:
+  host: localhost
+  port: 3306
+  name: mini_store
+
+midtrans:
+  client_key: SB-Mid-client-CU_j70vgtllC5RxH
+  server_key: SB-Mid-server-r3C1ZjvW25r3P9r_PdVnHHev
