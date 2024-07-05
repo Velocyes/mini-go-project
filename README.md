@@ -4,25 +4,25 @@ NGROK_AUTHTOKEN="2ipR5KiW7yYp6fcu9ECJze4degg_4qyw7odQvAigQ9FzBqXQc" go run cmd/a
 Endpoints:
 
 # Products #
-- GetAllProducts:
+- GetAllProducts:\n
   [GET] http://localhost:{port}/products
-- GetProductsByIDs
+- GetProductsByIDs:\n
   [GET] http://localhost:{port}/products/{ids}
-- InsertNewProducts:
+- InsertNewProducts:\n
   [POST] http://localhost:{port}/products
-- AlterProducts:
+- AlterProducts:\n
   [PUT] http://localhost:{port}/products
-- DeleteProductsByIDs:
+- DeleteProductsByIDs:\n
   [DELETE] http://localhost:{port}/products/{ids}
 
 # Orders #
-- GetAllOrders:
+- GetAllOrders:\n
   [GET] http://localhost:{port}/orders
-- GetOrdersByIDs
+- GetOrdersByIDs\n
   [GET] http://localhost:{port}/orders/{ids}
-- InsertNewOrders:
+- InsertNewOrders:\n
   [POST] http://localhost:{port}/orders
-- DeleteOrdersByIDs:
+- DeleteOrdersByIDs:\n
   [DELETE] http://localhost:{port}/orders/{ids}
   
 Notes:
